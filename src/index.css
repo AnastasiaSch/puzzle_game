@@ -1,0 +1,28 @@
+.game {
+    display: flex; 
+    margin: 15px;
+}
+
+.grid-container {
+    display: grid;
+    position: 'relative';
+}
+
+.items {
+    position: relative;
+    border: 2px solid #55ab9f;
+    font-size: 25px;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.white {
+    color: white;
+}
+
+.winner {
+    color: rgb(0, 128, 0);
+    font-size: 25px;
+    margin-left: 2rem;
+}
